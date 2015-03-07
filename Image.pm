@@ -33,7 +33,9 @@ sub new {
 	if (! defined $self->{'part'}) {
 		err "Parameter 'part' is required.";
 	}
-	if (! blessed($self->{'part'}) || ! $self->{'part'}->isa('Lego::Part')) {
+	if (! blessed($self->{'part'})
+		|| ! $self->{'part'}->isa('Lego::Part')) {
+
 		err "Parameter 'part' must be Lego::Part object.";
 	}
 
