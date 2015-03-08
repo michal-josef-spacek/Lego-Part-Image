@@ -120,6 +120,12 @@ Lego::Part::Image::LegoCom - Lego part image class for lego.com.
  # Output:
  # Part with element ID '300321' URL is: http://cache.lego.com/media/bricks/5/2/300321.jpg
 
+=begin html
+
+<img src="http://cache.lego.com/media/bricks/5/2/300321.jpg" alt="Lego brick with element ID '300321'." />
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<Error::Pure>,

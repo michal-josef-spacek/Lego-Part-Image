@@ -118,6 +118,12 @@ Lego::Part::Image::PeeronCom - Lego part image class for peeron.com.
  # Output:
  # Part with design ID '3003' and color '1' URL is: http://media.peeron.com/ldraw/images/1/100/3003.png
 
+=begin html
+
+<img src="http://media.peeron.com/ldraw/images/1/100/3003.png" alt="Lego brick with design ID '3003' and color '1'." />
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<Error::Pure>,

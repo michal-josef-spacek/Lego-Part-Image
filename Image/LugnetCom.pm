@@ -113,6 +113,12 @@ Lego::Part::Image::LugnetCom - Lego part image class for lugnet.com.
  # Output:
  # Part with design ID '3003' URL is: http://img.lugnet.com/ld/3003.gif
 
+=begin html
+
+<img src="http://img.lugnet.com/ld/3003.gif" alt="Lego brick with design ID '3003'." />
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<Error::Pure>,
