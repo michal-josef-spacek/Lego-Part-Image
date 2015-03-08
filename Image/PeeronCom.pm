@@ -116,7 +116,7 @@ Lego::Part::Image::PeeronCom - Lego part image class for peeron.com.
  print "Part with design ID '3003' and color '1' URL is: ".$image_url."\n";
 
  # Output:
- # TODO
+ # Part with design ID '3003' and color '1' URL is: http://media.peeron.com/ldraw/images/1/100/3003.png
 
 =head1 DEPENDENCIES
 
