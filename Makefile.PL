@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'Lego part image object.';
+abstract 'Lego part image objects.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Lego-Part-Image';

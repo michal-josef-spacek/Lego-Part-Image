@@ -1,5 +1,5 @@
 ---
-abstract: 'Lego part image object.'
+abstract: 'Lego part image objects.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
