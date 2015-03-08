@@ -5,12 +5,18 @@ use base qw(Lego::Part::Image);
 use strict;
 use warnings;
 
+# Modules.
+use Error::Pure qw(err);
+
 # Version.
 our $VERSION = 0.01;
 
 # Get image URL.
 sub image_url {
 	my $self = shift;
+	if (! defined $self->{'part'}->element_id) {
+		err "Element ID doesn't defined.";
+	}
 	my $url = sprintf 'http://cache.lego.com/media/bricks/5/%s/%s.jpg',
 		$self->_zoom, $self->{'part'}->element_id;
 	return $url;
