@@ -128,8 +128,8 @@ L<Lego::Part::Image>.
 =head1 SEE ALSO
 
 L<Lego::Part::Image>,
-L<Lego::Part::Image::PeeronCom>,
-L<Lego::Part::Image::LugnetCom>.
+L<Lego::Part::Image::LugnetCom>,
+L<Lego::Part::Image::PeeronCom>.
 
 =head1 REPOSITORY
 
