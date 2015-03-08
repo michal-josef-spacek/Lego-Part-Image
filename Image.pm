@@ -106,6 +106,20 @@ Lego::Part::Image - Lego part image abstract class.
 
 =back
 
+=head1 ERRORS
+
+ new():
+         Parameter 'part' is required.
+         Parameter 'part' must be Lego::Part object.
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
+
+ image():
+         This is abstract class. image() method not implemented.
+
+ image_url():
+         This is abstract class. image_url() method not implemented.
+
 =head1 EXAMPLE
 
  # Pragmas.
