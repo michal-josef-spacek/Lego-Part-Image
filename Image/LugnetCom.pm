@@ -85,7 +85,7 @@ Lego::Part::Image::LugnetCom - Lego part image class for lugnet.com.
          This is abstract class. image() method not implemented.
 
  image_url():
-         Element ID doesn't defined.
+         Design ID doesn't defined.
 
 =head1 EXAMPLE
 
