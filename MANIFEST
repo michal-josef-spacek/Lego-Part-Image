@@ -32,3 +32,6 @@ t/Lego-Part-Image/00-use.t
 t/Lego-Part-Image/01-version.t
 t/Lego-Part-Image/02-pod_coverage.t
 t/Lego-Part-Image/03-pod.t
+t/Lego-Part-Image/04-new.t
+t/Lego-Part-Image/05-image.t
+t/Lego-Part-Image/06-image_url.t
