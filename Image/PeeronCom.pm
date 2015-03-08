@@ -9,7 +9,7 @@ use warnings;
 use Error::Pure qw(err);
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Get image URL.
 sub image_url {
@@ -152,6 +152,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
