@@ -160,6 +160,8 @@ L<Lego::Part::Image::PeeronCom>,
 L<Lego::Part::Image::LegoCom>,
 L<Lego::Part::Image::LugnetCom>.
 
+L<Task::Lego>.
+
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/Lego-Part-Image>

@@ -73,6 +73,8 @@ SEE ALSO
     Lego::Part::Image::PeeronCom, Lego::Part::Image::LegoCom,
     Lego::Part::Image::LugnetCom.
 
+    Task::Lego.
+
 REPOSITORY
     <https://github.com/tupinek/Lego-Part-Image>
 
