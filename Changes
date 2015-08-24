@@ -1,6 +1,7 @@
 0.03
  - Add Task::Lego to SEE ALSO section in doc.
  - Add minimal version of Perl.
+ - Improve SEE ALSO sections in doc.
  - Update Module::Install to 1.16 version.
 
 0.02 2015-03-09T06:18:53+01:00

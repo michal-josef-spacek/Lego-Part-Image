@@ -126,11 +126,25 @@ L<Lego::Part::Image>.
 
 =head1 SEE ALSO
 
-L<Lego::Part::Image>,
-L<Lego::Part::Image::LegoCom>,
-L<Lego::Part::Image::PeeronCom>.
+=over
 
-L<Task::Lego>.
+=item L<Lego::Part::Image>
+
+Lego part image abstract class.
+
+=item L<Lego::Part::Image::PeeronCom>
+
+Lego part image class for peeron.com.
+
+=item L<Lego::Part::Image::LegoCom>
+
+Lego part image class for lego.com.
+
+=item L<Task::Lego>
+
+Install the Lego modules.
+
+=back
 
 =head1 REPOSITORY
 

@@ -156,11 +156,25 @@ L<Scalar::Util>.
 
 =head1 SEE ALSO
 
-L<Lego::Part::Image::PeeronCom>,
-L<Lego::Part::Image::LegoCom>,
-L<Lego::Part::Image::LugnetCom>.
+=over
 
-L<Task::Lego>.
+=item L<Lego::Part::Image::PeeronCom>
+
+Lego part image class for peeron.com.
+
+=item L<Lego::Part::Image::LegoCom>
+
+Lego part image class for lego.com.
+
+=item L<Lego::Part::Image::LugnetCom>
+
+Lego part image class for lugnet.com.
+
+=item L<Task::Lego>
+
+Install the Lego modules.
+
+=back
 
 =head1 REPOSITORY
 
