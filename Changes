@@ -1,4 +1,4 @@
-0.05
+0.05 2015-09-24T00:21:23+02:00
  - Add tests for image_url() methods.
  - Move author tests to xt/ directory.
 
