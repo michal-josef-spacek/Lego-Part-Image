@@ -6,13 +6,10 @@ build_requires:
   English: 0
   Error::Pure::Utils: 0.22
   ExtUtils::MakeMaker: 6.36
-  File::Object: 0.05
   Lego::Part: 0.01
   Test::MockObject: 0
   Test::More: 0
   Test::NoWarnings: 0
-  Test::Pod: 0
-  Test::Pod::Coverage: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -28,6 +25,7 @@ no_index:
     - examples
     - inc
     - t
+    - xt
 requires:
   Class::Utils: 0.03
   Error::Pure: 0.22

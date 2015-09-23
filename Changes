@@ -1,4 +1,5 @@
 0.05
+ - Move author tests to xt/ directory.
 
 0.04 2015-08-25T23:05:17+02:00
  - Fix Makefile.PL and META.yml files.
