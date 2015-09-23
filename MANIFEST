@@ -27,12 +27,15 @@ SIGNATURE
 t/Lego-Part-Image-LegoCom/01-use.t
 t/Lego-Part-Image-LegoCom/02-version.t
 t/Lego-Part-Image-LegoCom/03-new.t
+t/Lego-Part-Image-LegoCom/04-image_url.t
 t/Lego-Part-Image-LugnetCom/01-use.t
 t/Lego-Part-Image-LugnetCom/02-version.t
 t/Lego-Part-Image-LugnetCom/03-new.t
+t/Lego-Part-Image-LugnetCom/04-image_url.t
 t/Lego-Part-Image-PeeronCom/01-use.t
 t/Lego-Part-Image-PeeronCom/02-version.t
 t/Lego-Part-Image-PeeronCom/03-new.t
+t/Lego-Part-Image-PeeronCom/04-image_url.t
 t/Lego-Part-Image/01-use.t
 t/Lego-Part-Image/02-version.t
 t/Lego-Part-Image/03-new.t
