@@ -33,7 +33,7 @@ requires:
   Scalar::Util: 0
   perl: 5.6.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Lego-Part-Image
+  bugtracker: https://github.com/michal-josef-spacek/Lego-Part-Image/issues
   homepage: https://github.com/michal-josef-spacek/Lego-Part-Image
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/Lego-Part-Image
