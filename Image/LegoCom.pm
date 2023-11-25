@@ -48,34 +48,41 @@ Lego::Part::Image::LegoCom - Lego part image class for lego.com.
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item * C<new()>
+ my $obj = Lego::Part::Image::LegoCom->new;
 
- Constructor.
- Returns object.
+Constructor.
 
 =over 8
 
 =item * C<part>
 
- Lego::Part object.
- It is required.
- Default value is undef.
+L<Lego::Part> object.
+
+It is required.
+
+Default value is undef.
 
 =back
 
-=item * C<image()>
+Returns instance of object.
 
- Get image.
- Not implemented now.
+=head2 C<image>
 
-=item * C<image_url()>
+ my $image = $obj->image;
 
- Get image URL.
- Returns string with image URL.
+Get image.
 
-=back
+Not implemented now.
+
+=head2 C<image_url>
+
+ my $image_url = $obj->image_url;
+
+Get image URL.
+
+Returns string with image URL.
 
 =head1 ERRORS
 

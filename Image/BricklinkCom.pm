@@ -59,7 +59,7 @@ Constructor.
 
 =item * C<part>
 
-Lego::Part object.
+L<Lego::Part> object.
 
 It is required.
 

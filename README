@@ -9,24 +9,30 @@ SYNOPSIS
      $obj->image_url;
 
 METHODS
-    *       "new()"
+  * "new"
+     my $obj = Lego::Part::Image->new;
 
-             Constructor.
-             Returns object.
+    Constructor.
 
-            *       "part"
+    *       "part"
 
-                     Lego::Part object.
-                     It is required.
-                     Default value is undef.
+            Lego::Part object.
 
-    *       "image()"
+            It is required.
 
-             Abstract method for getting image.
+            Default value is undef.
 
-    *       "image_url()"
+    Returns instance of object.
 
-             Abstract method for getting image url.
+  "image"
+     $obj->image;
+
+    Abstract method for getting image.
+
+  "image_url"
+     $obj->image_url;
+
+    Abstract method for getting image url.
 
 ERRORS
      new():
