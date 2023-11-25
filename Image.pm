@@ -165,9 +165,9 @@ L<Scalar::Util>.
 
 =over
 
-=item L<Lego::Part::Image::PeeronCom>
+=item L<Lego::Part::Image::BricklinkCom>
 
-Lego part image class for peeron.com.
+Lego part image class for bricklink.com.
 
 =item L<Lego::Part::Image::LegoCom>
 
@@ -176,6 +176,10 @@ Lego part image class for lego.com.
 =item L<Lego::Part::Image::LugnetCom>
 
 Lego part image class for lugnet.com.
+
+=item L<Lego::Part::Image::PeeronCom>
+
+Lego part image class for peeron.com.
 
 =item L<Task::Lego>
 

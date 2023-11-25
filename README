@@ -75,14 +75,17 @@ DEPENDENCIES
     Class::Utils, Error::Pure, Readonly, Scalar::Util.
 
 SEE ALSO
-    Lego::Part::Image::PeeronCom
-        Lego part image class for peeron.com.
+    Lego::Part::Image::BricklinkCom
+        Lego part image class for bricklink.com.
 
     Lego::Part::Image::LegoCom
         Lego part image class for lego.com.
 
     Lego::Part::Image::LugnetCom
         Lego part image class for lugnet.com.
+
+    Lego::Part::Image::PeeronCom
+        Lego part image class for peeron.com.
 
     Task::Lego
         Install the Lego modules.
