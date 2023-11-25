@@ -143,7 +143,7 @@ Install the Lego modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Lego-Part-Image>
+L<https://github.com/michal-josef-spacek/Lego-Part-Image>
 
 =head1 AUTHOR
 

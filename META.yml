@@ -34,7 +34,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Lego-Part-Image
-  homepage: https://github.com/tupinek/Lego-Part-Image
+  homepage: https://github.com/michal-josef-spacek/Lego-Part-Image
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Lego-Part-Image
+  repository: git://github.com/michal-josef-spacek/Lego-Part-Image
 version: '0.06'
