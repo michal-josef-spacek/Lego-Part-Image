@@ -1,5 +1,6 @@
 0.06
  - Add support for bricklink.com.
+ - Fix LegoCom URL.
  - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.

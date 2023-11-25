@@ -14,16 +14,9 @@ sub image_url {
 	if (! defined $self->{'part'}->element_id) {
 		err "Element ID doesn't defined.";
 	}
-	my $url = sprintf 'http://cache.lego.com/media/bricks/5/%s/%s.jpg',
-		$self->_zoom, $self->{'part'}->element_id;
+	my $url = sprintf 'https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/%s.jpg',
+		$self->{'part'}->element_id;
 	return $url;
-}
-
-# lego.com zoom rutine.
-sub _zoom {
-	my $self = shift;
-	# TODO Better resolution? 2/3 in lego.com
-	return 2;
 }
 
 1;
@@ -123,11 +116,11 @@ Returns string with image URL.
  print "Part with element ID '300321' URL is: ".$image_url."\n";
 
  # Output:
- # Part with element ID '300321' URL is: http://cache.lego.com/media/bricks/5/2/300321.jpg
+ # Part with element ID '300321' URL is: https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300321.jpg
 
 =begin html
 
-<img src="http://cache.lego.com/media/bricks/5/2/300321.jpg" alt="Lego brick with element ID '300321'." />
+<img src="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300321.jpg" alt="Lego brick with element ID '300321'." />
 
 =end html
 
