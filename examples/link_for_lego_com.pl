@@ -20,4 +20,4 @@ my $image_url = $obj->image_url;
 print "Part with element ID '300321' URL is: ".$image_url."\n";
 
 # Output:
-# Part with element ID '300321' URL is: http://cache.lego.com/media/bricks/5/2/300321.jpg
+# Part with element ID '300321' URL is: https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300321.jpg

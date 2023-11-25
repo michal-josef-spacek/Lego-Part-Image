@@ -6,7 +6,7 @@ use warnings;
 
 use Error::Pure qw(err);
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Get image URL.
 sub image_url {
@@ -179,6 +179,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut
