@@ -1,4 +1,5 @@
 0.06
+ - Update Module::Install to 1.21 version.
 
 0.05 2015-09-24T00:21:23+02:00
  - Add tests for image_url() methods.
