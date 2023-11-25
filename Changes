@@ -1,4 +1,4 @@
-0.06
+0.06 2023-11-25T11:24:40+01:00
  - Add support for bricklink.com.
  - Fix LegoCom URL.
  - Fix use lib '.' in Makefile.PL.
