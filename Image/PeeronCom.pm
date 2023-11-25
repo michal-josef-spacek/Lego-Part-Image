@@ -11,6 +11,7 @@ our $VERSION = 0.06;
 # Get image URL.
 sub image_url {
 	my $self = shift;
+
 	if (! defined $self->{'part'}->color) {
 		err "Color doesn't defined.";
 	}
@@ -19,6 +20,7 @@ sub image_url {
 	}
 	my $url = sprintf 'http://media.peeron.com/ldraw/images/%d/100/%s.png',
 		$self->{'part'}->color, $self->{'part'}->design_id;
+
 	return $url;
 }
 

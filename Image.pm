@@ -43,15 +43,19 @@ sub new {
 # Get image.
 sub image {
 	my $self = shift;
+
 	# TODO Implement getting of image with cache.
 	err "This is abstract class. image() method not implemented.";
+
 	return;
 }
 
 # Get image URL.
 sub image_url {
 	my $self = shift;
+
 	err "This is abstract class. image_url() method not implemented.";
+
 	return;
 }
 

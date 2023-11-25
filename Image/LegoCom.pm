@@ -11,11 +11,13 @@ our $VERSION = 0.06;
 # Get image URL.
 sub image_url {
 	my $self = shift;
+
 	if (! defined $self->{'part'}->element_id) {
 		err "Element ID doesn't defined.";
 	}
 	my $url = sprintf 'https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/%s.jpg',
 		$self->{'part'}->element_id;
+
 	return $url;
 }
 
