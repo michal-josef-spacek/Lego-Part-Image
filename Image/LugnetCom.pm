@@ -87,6 +87,8 @@ Lego::Part::Image::LugnetCom - Lego part image class for lugnet.com.
 
 =head1 EXAMPLE
 
+=for comment filename=link_for_lugnet_com.pl
+
  use strict;
  use warnings;
 

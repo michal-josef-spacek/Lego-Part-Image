@@ -91,6 +91,8 @@ Lego::Part::Image::PeeronCom - Lego part image class for peeron.com.
 
 =head1 EXAMPLE
 
+=for comment filename=link_for_peeron_com.pl
+
  use strict;
  use warnings;
 

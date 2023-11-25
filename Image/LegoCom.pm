@@ -94,6 +94,8 @@ Lego::Part::Image::LegoCom - Lego part image class for lego.com.
 
 =head1 EXAMPLE
 
+=for comment filename=link_for_lego_com.pl
+
  use strict;
  use warnings;
 

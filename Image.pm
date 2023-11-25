@@ -120,6 +120,8 @@ Lego::Part::Image - Lego part image abstract class.
 
 =head1 EXAMPLE
 
+=for comment filename=abstract_class.pl
+
  use strict;
  use warnings;
 
