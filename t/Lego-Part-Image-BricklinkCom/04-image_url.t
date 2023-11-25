@@ -5,7 +5,7 @@ use English qw(-no_match_vars);
 use Error::Pure::Utils qw(clean);
 use Lego::Part;
 use Lego::Part::Image::BricklinkCom;
-use Test::More 'tests' => 4;
+use Test::More 'tests' => 5;
 use Test::NoWarnings;
 
 # Test.
@@ -39,3 +39,14 @@ is($EVAL_ERROR, "Parameter 'element_id' or 'design_id' is required.\n",
 	"Parameter 'element_id' or 'design_id' is required.");
 clean();
 
+# Test.
+eval {
+	Lego::Part::Image::BricklinkCom->new(
+		'part' => Lego::Part->new(
+			'element_id' => 300302,
+		),
+	)->image_url;
+};
+is($EVAL_ERROR, "Design ID doesn't defined.\n",
+	"Design ID doesn't defined.");
+clean();
