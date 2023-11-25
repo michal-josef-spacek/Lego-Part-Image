@@ -2,6 +2,7 @@
  - Add support for bricklink.com.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.21 version.
+ - Update author name.
  - Update copyright years.
 
 0.05 2015-09-24T00:21:23+02:00
