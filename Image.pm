@@ -70,6 +70,7 @@ Lego::Part::Image - Lego part image abstract class.
 =head1 SYNOPSIS
 
  use Lego::Part::Image;
+
  my $obj = Lego::Part::Image->new;
  $obj->image;
  $obj->image_url;

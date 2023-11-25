@@ -41,6 +41,7 @@ Lego::Part::Image::LegoCom - Lego part image class for lego.com.
 =head1 SYNOPSIS
 
  use Lego::Part::Image::LegoCom;
+
  my $obj = Lego::Part::Image::LegoCom->new;
  my $image = $obj->image;
  my $image_url = $obj->image_url;

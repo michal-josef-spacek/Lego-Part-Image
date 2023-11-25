@@ -37,6 +37,7 @@ Lego::Part::Image::PeeronCom - Lego part image class for peeron.com.
 =head1 SYNOPSIS
 
  use Lego::Part::Image::PeeronCom;
+
  my $obj = Lego::Part::Image::PeeronCom->new;
  my $image = $obj->image;
  my $image_url = $obj->image_url;

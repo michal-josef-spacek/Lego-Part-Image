@@ -34,6 +34,7 @@ Lego::Part::Image::LugnetCom - Lego part image class for lugnet.com.
 =head1 SYNOPSIS
 
  use Lego::Part::Image::LugnetCom;
+
  my $obj = Lego::Part::Image::LugnetCom->new;
  my $image = $obj->image;
  my $image_url = $obj->image_url;
