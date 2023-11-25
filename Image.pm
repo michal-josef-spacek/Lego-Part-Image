@@ -1,10 +1,8 @@
 package Lego::Part::Image;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use Readonly;
@@ -13,7 +11,6 @@ use Scalar::Util qw(blessed);
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
 
-# Version.
 our $VERSION = 0.06;
 
 # Constructor.
@@ -122,11 +119,9 @@ Lego::Part::Image - Lego part image abstract class.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Lego::Part;
  use Lego::Part::Image;
 

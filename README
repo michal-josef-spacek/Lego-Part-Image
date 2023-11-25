@@ -41,11 +41,9 @@ ERRORS
              This is abstract class. image_url() method not implemented.
 
 EXAMPLE
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Lego::Part;
      use Lego::Part::Image;
 

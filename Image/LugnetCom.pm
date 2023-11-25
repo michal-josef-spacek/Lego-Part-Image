@@ -1,14 +1,11 @@
 package Lego::Part::Image::LugnetCom;
 
-# Pragmas.
 use base qw(Lego::Part::Image);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure qw(err);
 
-# Version.
 our $VERSION = 0.06;
 
 # Get image URL.
@@ -89,11 +86,9 @@ Lego::Part::Image::LugnetCom - Lego part image class for lugnet.com.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Lego::Part;
  use Lego::Part::Image::LugnetCom;
 
